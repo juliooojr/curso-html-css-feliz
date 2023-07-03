@@ -42,9 +42,16 @@ a::before {
     transition: transform 1000ms linear;
     /* height: 60px; */
     /* line-height: 60px;   não entendi como funciona esse comando */
-
 }
 
 #button:hover{
     transform: scale(1.08);
+}
+
+#banner {
+    width: 100%;
+}
+
+#buttonBanner{
+    float: inline-start;
 }
