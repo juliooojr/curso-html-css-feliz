@@ -11,6 +11,12 @@
 
 .section.-projects {
     background-color: #000;
-    border-bottom: 10px solid  #F25A70 ;
+}
 
+.section.-projects {
+    background-color: #000;
+}
+
+.section.-bdFirst {
+    border-bottom: 10px solid #F25A70;
 }
