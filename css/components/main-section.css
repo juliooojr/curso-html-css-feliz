@@ -20,3 +20,18 @@
 .main-section.-bdFirst {
     border-bottom: 10px solid #F25A70;
 }
+
+.main-section.-about {
+    background-color: #7C5E99;
+    border-bottom: 5px #000 solid;
+}
+
+.main-section.-contacts {
+    background-color: #3A4042;
+    border: none;
+}
+
+.main-section.-footer {
+    background-color: #000;
+    border: none;
+}
