@@ -29,6 +29,9 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
 
 </head>
 
@@ -259,9 +262,21 @@
 
     </section>
 
-    <!-- <section class="main-section -contacts">
-        <h2 class="main-tittle -second">Contatos</h2>
-    </section> -->
+    <form class="main-form">
+
+        <legend class="main-tittle -second">Contatos</legend>
+
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text">
+        
+        <label class="main-label" for="email">E-mail</label>
+        <input class="main-input" id="email" type="email" name="" id="">
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" name="" id="message"></textarea>
+
+        <button class="main-button -full" type="submit">Enviar</button>
+    </form>
 
     <footer class="main-footer">
         <a class="action" href="https://twitter.com" target="_blank"><img src="img/twitter 1.png" alt="Logo do Twitter"></a>

@@ -4,14 +4,21 @@
     box-shadow: 5px 5px 0px #000000;
     padding: 18px 20px;
     margin-right: 0px;
-    transition: transform 1000ms linear;
+    transition: transform 100ms cubic-bezier(.45,.97,.68,2.48);
     font-size: 20px;
     color: #fff;
     text-decoration: none;
-    /* height: 60px; */
-    /* line-height: 60px;   não entendi como funciona esse comando */
+    cursor: pointer;
 }
 
 .main-button:hover{
     transform: scale(1.08);
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(1.02);
 }
